@@ -19,14 +19,14 @@ El sistema está construido sobre una arquitectura modular que separa el procesa
 
 ## Estructura del Proyecto
 
-├── assets/             # Recursos visuales y logos
-├── src/
-│   ├── bot/            # Configuración y lógica del Agente LangChain
-│   ├── insights/       # Algoritmos de detección automática de anomalías
-│   └── utils/          # Scripts de carga y limpieza de datos
-├── app.py              # Punto de entrada principal de la aplicación
-├── requirements.txt    # Dependencias del proyecto
-└── .env                # Variables de entorno (Excluido vía .gitignore)
+* **`assets/`**: Recursos visuales y logos.
+* **`src/`**: Código fuente de la aplicación.
+  * **`bot/`**: Configuración y lógica del Agente LangChain.
+  * **`insights/`**: Algoritmos de detección automática de anomalías.
+  * **`utils/`**: Scripts de carga y limpieza de datos.
+* **`app.py`**: Punto de entrada principal de la aplicación Streamlit.
+* **`requirements.txt`**: Dependencias del proyecto.
+* **`.env`**: Variables de entorno (Excluido vía .gitignore).
 
 ## Clonar el repositorio
 
